@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href ="/pictures/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Emilys Candy" rel="stylesheet" >
+        <title>The Ciche Hacker Website</title>
+</head>
+<body>    
+    <!-- Header -->
+    <div id="header"></div>
+
+    <!-- Content -->
+<div class="container col-lg-6"></div>
+<div class="container text-center">
+        <h1>Gold Group</h1>
+        <h6>Top Tier hackers that can hack into NASA using HTML</h6>
+    </div>
+            <!-- First row of products -->
+        <div class="row col-lg-5 mx-auto text-center">
+        <div class="col p-sm-2">
+        <div class="card">
+            <div class="card-block">
+            <div class="card-body">
+                <p class="card-text">The one<br>$150</p>
+            </div>
+                <img src="/pictures/neo.jpeg" height = "250" width="300" class="card-img-bottom" alt="Neo from the matrix">
+        </div>
+        <button id ="btnShop" class="btn btn-shop" type="button">Buy Me</button>
+            </div>
+            </div>
+        <div class="col p-sm-2">
+        <div class="card">
+            <div class="card-block">
+            <div class="card-body">
+                <p class="card-text">Mr Robot<br>$125</p>
+            </div>
+                <img src="/pictures/Mr Robot.jpg" height = "250" width="300"  class="card-img-bottom" alt="Mr Robot">
+        </div>
+        <button id ="#cartBtn" class="btn btn-shop" type="button">Buy Me</button>
+             </div>
+             </div>
+        <div class="col p-sm-2">
+        <div class="card">
+            <div class="card-block">
+            <div class="card-body">
+                <p class="card-text">Q<br>$110</p>
+            </div>
+                <img src="/pictures/q.jpg" height = "250" width="300" class="card-img-bottom" alt="James Bond Q">
+        </div>
+        <button id ="btnShop" class="btn btn-shop" type="button">Buy Me</button>
+            </div>
+            </div>
+    </div>
+</div>
+<!-- Second row of products -->
+<div class="container text-center">
+        <h1>Silver Group</h1>
+        <h6>They do the impossible and look good doing it</h6>
+        </div>
+        <div class="row col-lg-5 mx-auto text-center ">
+        <div class="col p-sm-2">
+            <div class="card">
+            <div class="card-body">
+                <p class="card-text">Swordfish Hacker<br>$80</p>
+            </div>
+                <img src="/pictures/swordfish.jpg" height = "250" width="300" class="card-img-bottom" alt="Hugh Jackman in Swordfish">
+        <button id ="btnShop"  class="btn btn-shop">Buy Me</button>
+        </div>
+        </div>
+        <div class="col p-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">Photogenic Hacker<br>$65</p>
+            </div>
+                <img src="/pictures/chris H blackhat.jpg" height = "250" width ="300" class="card-img-bottom" alt="Chris Hemsworth in Blackhat">
+        <button id ="btnShop"  class="btn btn-shop">Buy Me</button>
+            </div>
+            </div>
+        <div class="col p-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">Pretty (and real) hacker<br>$55</p>
+            </div>
+                <img src="/pictures/kristina.jpg" height = "250" width ="300" class="card-img-bottom" alt="Kristina Svechinskaya an actual real life hacker">
+        <button id ="btnShop"  class="btn btn-shop">Buy Me</button>
+            </div>
+            </div>
+    </div>
+</div>
+<!-- Third row of products -->
+<div class="container text-center">
+        <h1>Bronze Group</h1>
+        <h6>Or if you're on a budget</h6>
+        </div>
+        <div class="row col-lg-5 mx-auto text-center">
+        <div class="col p-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">Very old school Hacker<br>$40</p>
+            </div>
+                <img src="/pictures/Matt B Wargames.jpg" height = "250" width ="300" class="card-img-bottom" alt="Matthew Broderick in Wargames">     
+        <button id ="btnShop"  class="btn btn-shop">Buy Me</button>
+            </div>
+            </div>
+        <div class="col p-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">Just Old School Hacker<br>$30</p>
+            </div>
+                <img src="/pictures/hacker 3.jpg" height = "250" width ="300" class="card-img-bottom" alt="Matthew Lillard in hackers">
+        <button id ="btnShop"  class="btn btn-shop">Buy Me</button>
+            </div>
+            </div>
+        <div class="col p-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">Cheap Hacker<br>$25</p>
+            </div>
+                <img src="/pictures/happy geek.jpg" height = "250" width ="300" class="card-img-bottom" alt="Stock Photo Geek">
+        <button id ="btnShop"  class="btn btn-shop">Buy Me</button>    
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- Toast popup on addtocart -->
+<div class="position-fixed bottom-0 end-0" style="z-index: 99">
+    <div aria-atomic="true" aria-live="assertive" class="toast hide start-toast" id="welcomeToast" role="alert">
+        <div class="toast-header">
+            <strong class="me-auto"> Added to basket</strong>
+            <small>0 min ago</small>
+            <button aria-label="Close" class="btn-close" data-bs-dismiss="toast" type="button"></button>
+        </div>
+        <div class="toast-body">
+            Item(s) added to cart
+        </div>
+    </div>
+</div>
+
+
+<!-- Shopping Cart Button-->
+<div id="shoppingCart"></div>
+
+<!-- Footer -->
+<div id="footer"></div>
+
+<!-- Load jQuery from a cdn (cloudflare) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- removing integrity check for jquery due to CORS error  leaving it here incase it's needed : integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="-->
+
+<!-- bootstrap script bundle -->  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+
+<!-- The old footer script block moved to shop.js-->
+<script src="/pages/shop/shop.js"></script>
+
+</body>
+</html>        
